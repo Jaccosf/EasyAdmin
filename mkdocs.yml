@@ -10,14 +10,32 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: light blue
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 nav:
     - "Index": 'index.md'
     - 'install.md'
+    - 'config.md'
+        - 'backups.md'
+        - 'webhook.md'
+        - 'discord-screenshots.md'
+        - 'reminders.md'
+        - 'shortcuts.md'
+    - 'permissions.md'
+    - 'admins.md'
+        - 'commands.md'
+    - 'updating.md'
+    - 'troubleshooting.md'
+    - 'api.md'
+        - 'plugins.md'
+    - 'translating.md'
