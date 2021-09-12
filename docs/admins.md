@@ -1,6 +1,6 @@
-# Using ACE
+# Adding Admins
 
-ACE uses your server config file or commands to add / remove admins and set permissions, here is an example:
+ACEs use your server config file or commands to add / remove admins and set permissions, here is an example:
 
 ```
 add_principal identifier.ip:127.0.0.1 group.admin
@@ -13,7 +13,7 @@ Layout of this command is
 add_principal identifier.IDENTIFIER group.GROUP_NAME
 ```
 
-Identifier in this case can be anything FiveM recognizes, e.g. steam, license, discord and whatnot, there are no restrictions on which identifier can be used.
+Identifier in this case can be anything FiveM recognizes, for exmaple, steam, license, discord and so on, there are no restrictions on which identifier can be used.
 
 
 

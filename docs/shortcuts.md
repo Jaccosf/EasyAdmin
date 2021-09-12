@@ -1,3 +1,5 @@
+# Reason Shortcuts
+
 As of EasyAdmin 6.02 there is a feature called "Reason Shortcuts".
 
 These shortcuts can be used to make writing reason a lot faster, "Random Deathmatch, please read our rules using /rules" can simply become "rdm", here is an example:

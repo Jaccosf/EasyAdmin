@@ -1,3 +1,5 @@
+# Updating Instructions
+
 This page outlines instructions on how to update EasyAdmin between versions.
 
 

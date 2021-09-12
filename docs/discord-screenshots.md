@@ -1,3 +1,5 @@
+# Discord as Screenshot Uploader
+
 ### Security Notice: Using this _will_ expose your webhook to players in form of code, if you are concerned about security for your webhook this method is not recommended.
 
 By Default, wew.wtf is configured as the standard Image Uploader, as this Service no longer exists an alternative will have to be set, EasyAdmin Supports setting Discord as an Uploader, this will upload the image to a Discord Channel using Webhooks

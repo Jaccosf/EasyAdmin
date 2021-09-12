@@ -1,3 +1,5 @@
+# Plugin API
+
 Since 5.9 EasyAdmin Supports creating custom Plugins which allow Developers to create new Items in the Menu and add custom Functions, this is a Quick-Start Guide for Developers.
 
 

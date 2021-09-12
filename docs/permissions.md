@@ -1,3 +1,6 @@
+# Configuring Permissions
+
+
 You can modify Permissions by using ACE in your server config file, each permission can either have a "allow" or "deny" value, you can add infinite groups, just make sure to add permissions for each group.
 
 ```

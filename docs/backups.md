@@ -1,3 +1,5 @@
+# Backups
+
 EasyAdmin, since Version 5.6, automatically creates backup of your banlist in the "backup" folder, inside EasyAdmin, by default, Backups are created every 3 Days and kept for 30 Days before being overwritten by newer Backups.
 
 

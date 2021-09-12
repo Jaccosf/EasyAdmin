@@ -1,3 +1,6 @@
+# Chat Reminders
+
+
 EasyAdmin Supports Chat Reminders, these get Sent in the Chat according to `ea_chatReminderTime` (in minutes).
 
 `ea_addReminder` is a command, so it needs to be put AFTER EasyAdmin starts in your server.cfg

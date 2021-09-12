@@ -1,4 +1,4 @@
-### Do you know more than one language? Want to help country-specific communities? Help Translate EasyAdmin!
+# Translating EasyAdmin
 
 You can Translate EasyAdmin quickly and easily, just copy the en.json in the "languages" folder and call it what your language is called!
 

@@ -1,3 +1,5 @@
+# Commands
+
 Available Commands are:
 
 ```

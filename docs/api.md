@@ -1,3 +1,5 @@
+# Lua API
+
 EasyAdmin offers an API to interact with certain EasyAdmin Features from code, below are some Events/Functions which can be used:
 
 
