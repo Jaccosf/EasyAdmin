@@ -6,8 +6,7 @@ edit_uri: ""
 
 
 theme:
-  name: material
-  custom_dir: material
+  name: readthedocs
 
 
 nav:
