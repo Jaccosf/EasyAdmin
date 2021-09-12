@@ -2,8 +2,6 @@ site_name: EasyAdmin
 site_description: EasyAdmin Documentation
 
 repo_url: https://github.com/Blumlaut/EasyAdmin
-edit_uri: ""
-
 
 theme:
   name: material
@@ -42,3 +40,7 @@ nav:
         - 'api.md'
         - 'plugins.md'
     - 'translating.md'
+
+plugins:
+  - git-revision-date
+  
