@@ -25,17 +25,20 @@ theme:
 nav:
     - "Index": 'index.md'
     - 'install.md'
-    - 'config.md'
-        - 'backups.md'
+    - 'Configuration':
+        - 'config.md'
+        - 'permissions.md'
+        - 'admins.md'
+    - 'Features':
+        - 'commands.md'
         - 'webhook.md'
         - 'discord-screenshots.md'
         - 'reminders.md'
         - 'shortcuts.md'
-    - 'permissions.md'
-    - 'admins.md'
-        - 'commands.md'
+        - 'backups.md'
     - 'updating.md'
     - 'troubleshooting.md'
-    - 'api.md'
+    - 'Developer Reference':
+        - 'api.md'
         - 'plugins.md'
     - 'translating.md'
