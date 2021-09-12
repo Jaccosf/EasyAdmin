@@ -1,0 +1,16 @@
+site_name: EasyAdmin
+site_description: EasyAdmin Documentation
+
+repo_url: https://github.com/Blumlaut/EasyAdmin
+edit_uri: ""
+
+
+theme:
+  name: material
+  custom_dir: material
+
+
+nav:
+    - "Index": 'index.md'
+    - "Installing EasyAdmin":
+        - 'install.md'
