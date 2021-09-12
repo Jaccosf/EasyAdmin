@@ -2,6 +2,8 @@ site_name: EasyAdmin
 site_description: EasyAdmin Documentation
 
 repo_url: https://github.com/Blumlaut/EasyAdmin
+edit_uri: "edit/docs/docs/"
+
 
 theme:
   name: material
