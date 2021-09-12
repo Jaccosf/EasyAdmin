@@ -1,4 +1,5 @@
-## Installation
+# Installing EasyAdmin
+
 Install it like any other Resource, no other Resources are Required for it to Run.
 
 ## Configuration

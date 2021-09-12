@@ -11,5 +11,4 @@ theme:
 
 nav:
     - "Index": 'index.md'
-    - "Installing EasyAdmin":
-        - 'install.md'
+    - 'install.md'
