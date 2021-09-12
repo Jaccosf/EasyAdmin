@@ -3,7 +3,6 @@ Welcome to the EasyAdmin Docs!
 Here is an overview of current Pages:
 
 ---
-## EasyAdmin Wiki
 -  [Installing EasyAdmin](install.md)
 -  [Configuring EasyAdmin](config.md)
    - [Banlist Backups](backups.md)
