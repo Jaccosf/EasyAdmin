@@ -1,4 +1,4 @@
-# Troubleshooting
+# Basic Troubleshooting
 
 
 ## Help, i'm getting an Error!
