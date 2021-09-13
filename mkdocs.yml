@@ -18,7 +18,7 @@ plugins:
 
 theme:
   name: material
-  logo: assets/ea_square_white_text.png
+  logo: assets/logo.png
   favicon: assets/favicon.png
   palette:
     - media: "(prefers-color-scheme: dark)"
