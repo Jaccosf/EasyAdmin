@@ -6,7 +6,7 @@ If you are using ZAP-Hosting (non-txAdmin), then the Steam WebAPIKey is already 
 
 **Note: you will need a full steam account to be able to do this, it'll require purchasing a game of £5+ to change your account from limited to full access**
 
-To create your SteamWebAPI Key head over to https://steamcommunity.com/dev/apikey and log in with your account.
+To create your SteamWebAPI Key head over to [steamcommunity.com](https://steamcommunity.com/dev/apikey) and log in with your account.
 
 When creating a new Key, enter your Server's IP Address (without Port) in the `Domain Name` field.
 
