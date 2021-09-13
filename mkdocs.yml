@@ -59,7 +59,9 @@ nav:
         - 'shortcuts.md'
         - 'backups.md'
     - 'updating.md'
-    - 'troubleshooting.md'
+    - 'Troubleshooting':
+      - 'troubleshooting.md'
+      - 'supportfile.md'
     - 'Developer Reference':
         - 'api.md'
         - 'plugins.md'
