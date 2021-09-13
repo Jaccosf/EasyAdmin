@@ -22,11 +22,11 @@ add_ace group.admin easyadmin allow
 ## Adding yourself as an Admin
 
 ### ZAP Hosting (non-txAdmin)
-Enter your in the Settings Page under Admins, add a new line for each SteamId.
+Enter your Steam ID in the Settings Page under Admins, add a new line for each SteamId.
 
 ### ZAP Hosting (txAdmin)
 
-See the DIY Section
+See the [DIY Section](https://easyadmin.readthedocs.io/en/latest/install/#do-it-yourself-self-hosted-txadmin)
 
 ### Do it Yourself (self-hosted, txAdmin)
 
