@@ -19,21 +19,26 @@ Identifier in this case can be anything FiveM recognizes, for exmaple, steam, li
 
 Although it is not confirmed, We recommend only using lowercase letters in the identifiers, as uppercase letters may not work correctly.
 
-# Steam WebApiKey (Only read this if you're using Steam)
+# Steam WebApiKey
 
-You'll need to take one extra step and set up a webApiKey in your server config.
+When using Steam as an Identifier, a Steam WebAPIKey is Required.
 
 **Note: you will need a full steam account to be able to do this, it'll require purchasing a game of £5+ to change your account from limited to full access**
 
 Head over to https://steamcommunity.com/dev/apikey and log in to your account.
 
-Then you'll want to enter your server IP address in the `Domain Name` field **without** the port. Next agree to the Terms of Use and click Register.
+Then enter your Server's IP Address (without Port) in the `Domain Name` field.
 
-Open your server.cfg and scroll down till you see `steam_WebApiKey` then copy the key you just generated and paste it between the speech marks.
+Then agree to the Terms of Use and click Register.
+
+Open your server.cfg and scroll down until you see a `steam_WebApiKey` line, then copy the key you just generated and paste it between the quotes.
+
+If no such line exists then it can simply be added.
 
 E.G
 ```
 steam_WebApiKey "ECBB82291CEF372F0CBC66DD11D66DA5"
 ```
-#### If you're hosting your server on your local machine (your PC) then you can enter `localhost` into the Domain Name field.
+
+> If you're hosting your server on your local machine (your PC) then you can enter `localhost` into the Domain Name field.
 
