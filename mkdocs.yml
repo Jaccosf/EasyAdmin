@@ -46,6 +46,7 @@ nav:
         - 'config.md'
         - 'permissions.md'
         - 'admins.md'
+        - 'steamapikey.md'
     - 'Features':
         - 'commands.md'
         - 'webhook.md'

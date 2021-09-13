@@ -35,6 +35,6 @@ Add
 setr ea_logLevel 3
 ```
 
-To your server.cfg, reboot the server and then join, EasyAdmin will now print all permissions for the joined user, these are the permissions that easyadmin can see via ACE, double check your configured permission and correct it accordingly, i cannot offer more help than this.
+To your server.cfg, reboot the server and then join, EasyAdmin will now print all permissions for the joined user, these are the permissions that easyadmin can see via ACE, double check your configured permission and correct it accordingly.
 
 ## Getting a different problem? Join the Support Discord: https://discord.gg/GugyRU8
