@@ -18,6 +18,8 @@ plugins:
 
 theme:
   name: material
+  logo: assets/ea_square_white_text.png
+  favicon: assets/favicon.png
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
