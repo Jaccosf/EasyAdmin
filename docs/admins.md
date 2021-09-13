@@ -13,8 +13,8 @@ Layout of this command is
 add_principal identifier.IDENTIFIER group.GROUP_NAME
 ```
 
-Identifier in this case can be anything FiveM recognizes, for exmaple, [steam](steamapikey.md), license, discord and so on, there are no restrictions on which identifier can be used.
+Identifier in this case can be anything FiveM recognizes, for example, [steam](steamapikey.md), license, discord and so on, there are no restrictions on which identifier can be used.
 
 
-Although it is not confirmed, We recommend only using lowercase letters in the identifiers, as uppercase letters may not work correctly.
+We recommend only using lowercase letters in the identifiers, as uppercase letters may not work correctly.
 
