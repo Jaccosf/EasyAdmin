@@ -8,6 +8,8 @@ markdown_extensions:
   - pymdownx.highlight:
       linenums: true
   - pymdownx.superfences
+  - toc:
+      permalink: True
 
 
 plugins:
