@@ -18,4 +18,4 @@ unban [identifier]
 ```
 
 
-Please see [Modifying Permission](https://github.com/Bluethefurry/EasyAdmin/wiki/2.-Configuring-Permissions) for a guide on how to allow/deny them on a per-user basis.
+Please see [Modifying Permission](permissions.md) for a guide on how to allow/deny them on a per-user basis.
