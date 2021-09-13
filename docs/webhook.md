@@ -23,7 +23,7 @@ If it works correctly, a message detailing the kick should now appear in the dis
 
 ## Disabling Specific Alerts
 
-See [ea_excludeWebhookFeature](https://github.com/Blumlaut/EasyAdmin/wiki/1.-Configuring-EasyAdmin#ea_excludewebhookfeature)
+See [ea_excludeWebhookFeature](config.md)
 
 
 ## Seperate Webhook Channels
