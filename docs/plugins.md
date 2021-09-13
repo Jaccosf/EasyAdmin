@@ -12,7 +12,45 @@ Menu Items are generated when the Button for it is pressed, do note that the men
 
 ## Boilerplate Script
 
-You can find a few Example Scripts in the "plugins" folder inside EasyAdmin, here some of the functionality is explained in more Detail.
+Here is a Boilerplate Script that can help you get started with EasyAdmin Plugins:
+
+```lua
+local somevalue = false
+
+AddEventHandler("EasyAdmin:BuildPlayerOptions", function(playerId) -- BuildPlayerOptions is triggered after building options like kick, ban.. Passes a Player ServerId
+	
+	local thisItem = NativeUI.CreateItem("Example Item","Player ID is "..playerId) -- create our new item
+	thisPlayer:AddItem(thisItem) -- thisPlayer is global.
+	thisItem.Activated = function(ParentMenu,SelectedItem)
+		-- enter your clientside code here, this will be run once the button has been activated.
+		somevalue = true -- set some value we want to undo once the menu closes.
+	end
+
+	if permissions["kick"] then -- you can also check if a user has a specific Permission.
+		local thisExampleMenu = _menuPool:AddSubMenu(thisPlayer,"Example Submenu","",true) -- Submenus work, too!
+		thisExampleMenu:SetMenuWidthOffset(menuWidth)
+
+		local thisItem = NativeUI.CreateItem("Example Submenu Item","")
+		thisExampleMenu:AddItem(thisItem) -- Items dont require a trigger.
+	end
+end)
+
+
+AddEventHandler("EasyAdmin:BuildCachedOptions", function(playerId) -- Options for Cached Players, do note that these do not not support Player natives! They're cached BY EASYADMIN
+end)
+
+AddEventHandler("EasyAdmin:BuildServerManagementOptions", function() -- Options for the Server Management Submenu, passes nothing.
+end)
+
+AddEventHandler("EasyAdmin:BuildSettingsOptions", function() -- Options for the Settings Page, once again, passes nothing
+end)
+
+AddEventHandler("EasyAdmin:MenuRemoved", function() -- this triggers if a player closes the menu or the menupool gets removed, this CAN trigger multiple times in a row.
+	somevalue = false -- reset our value :)
+
+end)
+```
+
 
 ## Recieving Events
 
