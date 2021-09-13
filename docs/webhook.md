@@ -9,7 +9,7 @@ set ea_moderationNotification "false"
 
 To your server's config file, then you need to create a discord webhook, like this:
 
-![](https://lambda.sx/Z5k.png)
+![](https://blumlaut.me/s/MteHc7YXnpZgc9W/preview)
 
 Once the webhook has been created, copy the webhook url and paste it where "false" is in the config file, so it looks like this:
 
