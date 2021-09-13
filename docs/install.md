@@ -41,4 +41,9 @@ add_principal identifier.steam:1100001000056ba
 
 You can use any Identifier available in FiveM for this, however, in this guide we will describe how to use your Steam ID.
 
+You can get your `HexID` from [vacbanned.com](http://www.vacbanned.com/) by typing in your steam URL.
+
 To use Steam IDs as an identifier, a Steam WebAPIKey needs to be set up. Follow this [guide](steamapikey.md) to create one.
+
+You can also use other identifiers, as EasyAdmin is not specifically limited to SteamIDs, all available identifiers can be used, such as `discord`, `xbl` or `license`, to name a few examples.
+
