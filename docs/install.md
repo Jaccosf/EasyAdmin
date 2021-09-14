@@ -39,7 +39,7 @@ add_principal identifier.IDENTIFIER:STEAMHEXID group.admin
 For example, when using a STEAM ID
 
 ```
-add_principal identifier.steam:1100001000056ba
+add_principal identifier.steam:1100001000056ba group.admin
 ```
 
 You can use any Identifier available in FiveM for this, however, in this guide we will describe how to use your Steam ID.
