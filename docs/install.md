@@ -36,13 +36,13 @@ You can use this template to fill out your desired Values
 add_principal identifier.IDENTIFIER:STEAMHEXID group.admin
 ```
 
-For example, when using a STEAM ID
+
+You can use any Identifier available in FiveM for this, however, in this guide we will describe how to use your Steam ID.
 
 ```
 add_principal identifier.steam:1100001000056ba group.admin
 ```
 
-You can use any Identifier available in FiveM for this, however, in this guide we will describe how to use your Steam ID.
 
 You can get your `HexID` from [vacbanned.com](http://www.vacbanned.com/) by typing in your steam URL.
 
