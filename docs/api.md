@@ -40,21 +40,3 @@ Will take a screenshot of the player's game and upload it to the configured imag
 
 Toggles whether a player is muted.
 
-
-# Listenable Events
-
-## THESE ARE NOT CURRENTLY IMPLEMENTED AND DO NOT DO ANYTHING
-
-### EasyAdmin:kickedPlayer
-```lua
-AddEventHandler('EasyAdmin:kickedPlayer', function(playerId,reason)
-```
-
-### EasyAdmin:bannedPlayer
-```lua
-AddEventHandler('EasyAdmin:kickedPlayer', function(playerId,reason, expires)
-```
-
-Triggers when a player is banned through EasyAdmin, this can be either through Warnings, normal bans or external bans, "expires" is a unix timestamp.
-
-
