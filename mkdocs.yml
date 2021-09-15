@@ -49,12 +49,12 @@ nav:
     - 'Configuration':
         - 'config.md'
         - 'permissions.md'
+    - 'Guides':
         - 'admins.md'
         - 'steamapikey.md'
-    - 'Features':
-        - 'commands.md'
         - 'webhook.md'
         - 'discord-screenshots.md'
+        - 'commands.md'
         - 'reminders.md'
         - 'shortcuts.md'
         - 'backups.md'
