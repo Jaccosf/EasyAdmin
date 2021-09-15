@@ -20,6 +20,8 @@ Now we extract our EasyAdmin to a folder of our liking and open the "language" f
 
 ![](https://blumlaut.me/s/iy5TK4DB8466HCN/preview)
 
+## Adding a new language
+
 then, we simply right click and copy the `en.json` file, this will be our template, we then rename it to our Language, in our case we will simply rename it to `en_2.json`, please make sure you follow the ISO-639-1 Standard to name your File.
 
 ![](assets/translating.gif)
@@ -35,6 +37,8 @@ Once you have finished your translation, open your Fork on GitHub again, open th
 ![](https://blumlaut.me/s/SzkytQ6dyBj3jMX/preview)
 
 Then, simply drag&drop your new file, now we are ready to create a Pull Request!
+
+## Creating a pull request
 
 Simply open the "Pull Requests" tab at the top of the page and select "New pull request", now we will have to select "base" as `Blumlaut/EasyAdmin` and compare as your Fork.
 
