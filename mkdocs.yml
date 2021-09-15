@@ -58,11 +58,11 @@ nav:
         - 'reminders.md'
         - 'shortcuts.md'
         - 'backups.md'
-    - 'updating.md'
+        - 'updating.md'
     - 'Troubleshooting':
       - 'troubleshooting.md'
       - 'supportfile.md'
     - 'Developer Reference':
         - 'plugins.md'
-    - 'translating.md'
+        - 'translating.md'
   
