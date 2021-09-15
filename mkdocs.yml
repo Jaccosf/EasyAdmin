@@ -16,15 +16,10 @@ plugins:
   - search
   - git-revision-date
 
-extra:
-  version:
-    provider: mike
-
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
-  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
