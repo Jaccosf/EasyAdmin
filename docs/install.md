@@ -33,11 +33,11 @@ See the [DIY Section](https://easyadmin.readthedocs.io/en/latest/install/#do-it-
 You can use this template to fill out your desired Values
 
 ```
-add_principal identifier.IDENTIFIER:STEAMHEXID group.admin
+add_principal identifier.IDENTIFIERNAME:IDENTIFIER group.admin
 ```
 
 
-You can use any Identifier available in FiveM for this, however, in this guide we will describe how to use your Steam ID.
+You can use any Identifier available in FiveM for this, however, in this example we will describe how to use your Steam ID.
 
 ```
 add_principal identifier.steam:1100001000056ba group.admin
